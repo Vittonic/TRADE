@@ -19,12 +19,12 @@ export default function ClientBody() {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-700 to-blue-900 text-white py-24">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 text-center">
           <h2 className="text-6xl font-bold mb-8">VITTONIC</h2>
           <p className="text-2xl mb-2">Stock trading with a</p>
           <p className="text-4xl font-bold mb-12">TRULY comprehensive service</p>
           
-          <div className="space-y-4 max-w-2xl">
+          <div className="space-y-4 max-w-2xl mx-auto">
             <button className="bg-white text-blue-900 font-bold px-8 py-4 rounded w-full text-lg">
               OWN GLOBAL NETWORK
             </button>
