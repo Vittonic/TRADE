@@ -221,19 +221,12 @@ export default function ClientBody() {
             </ul>
           </div>
           
-          <div>
-            <h4 className="font-bold text-xl mb-4 uppercase">Legal Links</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:underline">Legal Notice</a></li>
-              <li><a href="#" className="hover:underline">Privacy Policy</a></li>
-              <li><a href="#" className="hover:underline">Cookie Policy</a></li>
-            </ul>
           </div>
           
           <div>
             <h4 className="font-bold text-xl mb-4 uppercase">Contact</h4>
             <div className="text-sm space-y-2">
-              <p><strong>Address:</strong> Paseo del Progreso s/n, Nave 10 Rosa, Recinto Industrial Catex-Molí, 08640 Olesa de Montserrat, Barcelona, Spain.</p>
+              <p><strong>Address:</strong> England and Wales.</p>
               <p><strong>Email:</strong> <a href="mailto:vittonic@proton.me" className="hover:underline">vittonic@proton.me</a></p>
             </div>
           </div>
