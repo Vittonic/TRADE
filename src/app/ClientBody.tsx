@@ -73,7 +73,7 @@ export default function ClientBody() {
             <strong>We buy all types of stocks</strong>, from business surpluses or logistics abandonments to products from creditor insolvency or insurance claims.
           </p>
           
-          <a href="/#stocks" className="text-blue-600 underline">see full list</a>
+          <a href="#stocks" className="text-blue-600 underline">see full list</a>
         </div>
       </section>
 
@@ -90,7 +90,7 @@ export default function ClientBody() {
             We will always notify you when we receive an interesting stock for you.
           </p>
           
-          <a href="/#contact" className="text-blue-600 underline">contact us now</a>
+          <a href="#contact" className="text-blue-600 underline">contact us now</a>
         </div>
       </section>
 
@@ -176,15 +176,15 @@ export default function ClientBody() {
           <div>
             <h3 className="font-bold text-lg mb-4">FEATURED SERVICES</h3>
             <ul className="text-sm text-gray-400 space-y-2">
-              <li><a href="/#stocks">Stock Purchase.</a></li>
-              <li><a href="/#services">Stock Sales.</a></li>
+              <li><a href="#stocks">Stock Purchase.</a></li>
+              <li><a href="#services">Stock Sales.</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-bold text-lg mb-4">LEGAL LINKS</h3>
             <ul className="text-sm text-gray-400 space-y-2">
-              <li><a href="/#">Privacy Policy.</a></li>
+              <li><a href="#">Privacy Policy.</a></li>
             </ul>
           </div>
           
