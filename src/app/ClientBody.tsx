@@ -80,7 +80,7 @@ export default function ClientBody() {
             <strong>We buy all types of stocks</strong>, from business surpluses or logistics abandonments to products from creditor insolvency or insurance claims.
           </p>
           
-          <a href="#stocks" className="text-blue-600 underline">see full list</a>
+          <a href="#stocks" className="inline-block bg-blue-900 text-white px-6 py-3 rounded font-bold hover:bg-blue-800 transition">see full list</a>
         </div>
       </section>
 
