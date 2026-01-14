@@ -230,11 +230,6 @@ export default function ClientBody() {
           </div>
         </div>
         
-        <div className="container mx-auto mt-12 pt-8 border-t border-blue-800 text-center text-sm">
-          <p>
-            <strong>VITTONIC</strong> is a registered trademark of <strong>CHITA INVESTMENT GROUP</strong>, along with <strong>CHITA TRADING S.L.</strong> and <strong>ECO-CHITA</strong>.
-          </p>
-        </div>
       </footer>
     </main>
   );
