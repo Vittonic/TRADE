@@ -1,5 +1,6 @@
 'use client';
 
+
 export default function ClientBody() {
   return (
     <main className="min-h-screen">
