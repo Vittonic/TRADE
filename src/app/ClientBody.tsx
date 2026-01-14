@@ -203,7 +203,7 @@ export default function ClientBody() {
 
       {/* Footer */}
       <footer className="bg-blue-900 text-white py-16 px-4">
-        <div className="container mx-auto grid md:grid-cols-4 gap-8">
+        <div className="container mx-auto grid md:grid-cols-3 gap-8">
           <div>
             <h4 className="font-bold text-xl mb-4 uppercase">About VITTONIC</h4>
             <p className="text-sm">
@@ -221,12 +221,10 @@ export default function ClientBody() {
             </ul>
           </div>
           
-          </div>
-          
           <div>
             <h4 className="font-bold text-xl mb-4 uppercase">Contact</h4>
             <div className="text-sm space-y-2">
-              <p><strong>Address:</strong> England and Wales.</p>
+              <p><strong>Address:</strong> England and Wales</p>
               <p><strong>Email:</strong> <a href="mailto:vittonic@proton.me" className="hover:underline">vittonic@proton.me</a></p>
             </div>
           </div>
