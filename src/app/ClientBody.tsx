@@ -4,8 +4,7 @@ export default function ClientBody() {
   return (
     <main className="min-h-screen">
       {/* Top Bar */}
-      <div className="bg-blue-900 text-white py-2 px-4 flex justify-between items-center text-sm">
-        <a href="tel:+34931318343" className="hover:underline">📞 +34 931 31 83 43</a>
+      <div className="bg-blue-900 text-white py-2 px-4 flex justify-center items-center text-sm">
         <a href="mailto:vittonic@proton.me" className="hover:underline">✉ vittonic@proton.me</a>
       </div>
 
@@ -33,20 +32,6 @@ export default function ClientBody() {
           <p className="text-2xl md:text-3xl mb-8">
             Stock trading with a <span className="font-bold">TRULY</span> comprehensive service
           </p>
-          <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a 
-              href="tel:+34931318343" 
-              className="bg-white text-blue-900 px-8 py-4 rounded text-xl font-semibold hover:bg-gray-100 transition"
-            >
-              +34 931 31 83 43
-            </a>
-            <a 
-              href="https://wa.me/34931318343" 
-              className="bg-green-500 text-white px-8 py-4 rounded text-xl font-semibold hover:bg-green-600 transition flex items-center justify-center gap-2"
-            >
-              WhatsApp
-            </a>
-          </div>
         </div>
       </section>
 
@@ -195,70 +180,24 @@ export default function ClientBody() {
         </div>
       </section>
 
-      {/* Contact Form Section */}
+      {/* Contact Section - Email Only */}
       <section id="contact" className="py-16 px-4 bg-gray-50">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl font-bold text-blue-900 mb-8 text-center">CONTACT US</h2>
-          <p className="text-center text-xl mb-12">
+        <div className="container mx-auto max-w-4xl text-center">
+          <h2 className="text-4xl font-bold text-blue-900 mb-8">CONTACT US</h2>
+          <p className="text-xl mb-12">
             Contact us and start being part of our wide and select group of collaborators and suppliers. Are you selling or buying stocks? Whatever your answer, at VITTONIC we have the experience you need.
           </p>
           
-          <form className="space-y-6">
-            <div>
-              <input 
-                type="text" 
-                placeholder="*Full Name" 
-                required
-                className="w-full p-4 border border-gray-300 rounded focus:border-blue-900 focus:outline-none"
-              />
-            </div>
-            <div>
-              <input 
-                type="text" 
-                placeholder="Company" 
-                className="w-full p-4 border border-gray-300 rounded focus:border-blue-900 focus:outline-none"
-              />
-            </div>
-            <div>
-              <input 
-                type="email" 
-                placeholder="*Email Address" 
-                required
-                className="w-full p-4 border border-gray-300 rounded focus:border-blue-900 focus:outline-none"
-              />
-            </div>
-            <div>
-              <select 
-                required
-                className="w-full p-4 border border-gray-300 rounded focus:border-blue-900 focus:outline-none"
-              >
-                <option>*Reason for Contact</option>
-                <option>I want to sell stocks</option>
-                <option>I want to buy stocks</option>
-                <option>Other</option>
-              </select>
-            </div>
-            <div>
-              <textarea 
-                placeholder="*Message" 
-                required
-                rows={6}
-                className="w-full p-4 border border-gray-300 rounded focus:border-blue-900 focus:outline-none"
-              />
-            </div>
-            <div className="flex items-start gap-3">
-              <input type="checkbox" required className="mt-1" />
-              <label className="text-sm">
-                I consent to the processing of my data. VITTONIC will process your data to respond to your queries, questions or complaints.
-              </label>
-            </div>
-            <button 
-              type="submit"
-              className="w-full bg-blue-900 text-white py-4 rounded font-semibold hover:bg-blue-800 transition text-xl"
+          <div className="bg-white p-8 rounded-lg shadow-lg">
+            <div className="text-6xl mb-4">✉️</div>
+            <h3 className="text-2xl font-bold text-blue-900 mb-4">Email Us</h3>
+            <a 
+              href="mailto:vittonic@proton.me" 
+              className="text-2xl text-blue-900 hover:underline font-semibold"
             >
-              send
-            </button>
-          </form>
+              vittonic@proton.me
+            </a>
+          </div>
         </div>
       </section>
 
@@ -296,7 +235,6 @@ export default function ClientBody() {
             <div className="text-sm space-y-2">
               <p><strong>Address:</strong> Paseo del Progreso s/n, Nave 10 Rosa, Recinto Industrial Catex-Molí, 08640 Olesa de Montserrat, Barcelona, Spain.</p>
               <p><strong>Email:</strong> <a href="mailto:vittonic@proton.me" className="hover:underline">vittonic@proton.me</a></p>
-              <p><strong>Phone:</strong> <a href="tel:+34931318343" className="hover:underline">+34 931 31 83 43</a></p>
             </div>
           </div>
         </div>
