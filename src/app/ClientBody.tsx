@@ -3,28 +3,35 @@
 export default function ClientBody() {
   return (
     <main className="min-h-screen">
+      {/* Top Bar */}
+      <div className="bg-blue-900 text-white py-2 px-4 flex justify-between text-sm">
+        <a href="mailto:vittonic@proton.me">vittonic@proton.me</a>
+        <span>🇬🇧 English</span>
+      </div>
+
+      {/* Header */}
       <header className="bg-white border-b">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-blue-900">VITTONIC</h1>
-          <a href="mailto:vittonic@proton.me" className="text-sm">vittonic@proton.me</a>
+          <button className="text-blue-900">☰</button>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-blue-600 to-blue-800 text-white py-24">
+      <section className="bg-gradient-to-br from-blue-700 to-blue-900 text-white py-24">
         <div className="container mx-auto px-4">
-          <h2 className="text-6xl font-bold mb-4">VITTONIC</h2>
+          <h2 className="text-6xl font-bold mb-8">VITTONIC</h2>
           <p className="text-2xl mb-2">Stock trading with a</p>
-          <p className="text-4xl font-bold mb-8">TRULY comprehensive service</p>
+          <p className="text-4xl font-bold mb-12">TRULY comprehensive service</p>
           
-          <div className="mt-8 space-y-4 max-w-md">
-            <button className="bg-white text-blue-900 font-bold px-8 py-4 rounded w-full">
+          <div className="space-y-4 max-w-2xl">
+            <button className="bg-white text-blue-900 font-bold px-8 py-4 rounded w-full text-lg">
               OWN GLOBAL NETWORK
             </button>
-            <button className="bg-white text-blue-900 font-bold px-8 py-4 rounded w-full">
+            <button className="bg-white text-blue-900 font-bold px-8 py-4 rounded w-full text-lg">
               MAXIMUM DISCRETION
             </button>
-            <button className="bg-white text-blue-900 font-bold px-8 py-4 rounded w-full">
+            <button className="bg-white text-blue-900 font-bold px-8 py-4 rounded w-full text-lg">
               WE PAY & LOAD
             </button>
           </div>
@@ -32,7 +39,7 @@ export default function ClientBody() {
       </section>
 
       {/* Who are we Section */}
-      <section className="bg-white py-24">
+      <section className="bg-white py-16">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-4xl font-bold text-blue-900 mb-4">Who are we?</h2>
           <div className="h-1 w-16 bg-blue-900 mb-8"></div>
@@ -60,11 +67,11 @@ export default function ClientBody() {
       </section>
 
       {/* Stock Purchase Section */}
-      <section className="bg-gray-100 py-24">
+      <section className="bg-gray-100 py-16">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-4xl font-bold text-blue-900 mb-8">STOCK PURCHASE</h2>
           
-          <p className="text-gray-700 mb-8">
+          <p className="text-gray-700 mb-6">
             Our work system is simple and agile: we visit the location, perform the <strong>product valuation</strong>, manage offers, <strong>pay</strong>, load and <strong>close operations quickly and efficiently</strong>.
           </p>
           
@@ -78,7 +85,7 @@ export default function ClientBody() {
       </section>
 
       {/* Stock Sales Section */}
-      <section className="bg-white py-24">
+      <section className="bg-white py-16">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-4xl font-bold text-blue-900 mb-8">STOCK SALES</h2>
           
@@ -86,7 +93,7 @@ export default function ClientBody() {
             If you are interested in becoming part of our <strong>buyer network</strong>, contact us and we will explain how we work.
           </p>
           
-          <p className="text-gray-700 mb-8">
+          <p className="text-gray-700 mb-6">
             We will always notify you when we receive an interesting stock for you.
           </p>
           
@@ -94,8 +101,64 @@ export default function ClientBody() {
         </div>
       </section>
 
+      {/* Stock Purchases Types Section */}
+      <section id="stocks" className="bg-gray-100 py-16">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <h2 className="text-4xl font-bold text-blue-900 mb-4">STOCK PURCHASES</h2>
+          <p className="text-gray-700 mb-8">Discover all the types of stocks we buy.</p>
+          <p className="text-gray-700 mb-12">We are experts in buying and selling stocks, business surpluses, store closures, logistics abandonments, discontinued and end-of-season products, creditor insolvency, auctions, insurance claims and salvage, etc.</p>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-3">Stocks</h3>
+              <p className="text-gray-700">We visit the location, evaluate the products, manage offers, pay and load. Always fast and efficient.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-3">Business Surplus</h3>
+              <p className="text-gray-700">We free up space in your premises or warehouse by buying those products you no longer need or that clutter your business. We evaluate, pay and load.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-3">Store Closures</h3>
+              <p className="text-gray-700">We take care of evaluating and making offers for the remaining items in closing stores. We pay a fair price, load and clear the premises.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-3">Logistics Abandonments</h3>
+              <p className="text-gray-700">We eliminate the headaches of logistics centers by buying products abandoned by delinquent customers or the Tax Agency. We offer fair prices and fast stock collection to free up space.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-3">Discontinued & End of Season Products</h3>
+              <p className="text-gray-700">We are official liquidators for large national and international companies, handling discontinued or end-of-season products.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-3">Creditor Insolvency</h3>
+              <p className="text-gray-700">We become a solution for insolvency administrators, who often designate us in the liquidation plan as exclusive liquidators.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-3">Auctions</h3>
+              <p className="text-gray-700">When we are not the primary buyers, we organize auctions for the offered goods, achieving the best valuation and price.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-3">Insurance Claims & Salvage</h3>
+              <p className="text-gray-700">We assist insurance appraisers in valuing and salvaging products affected by claims, attempting to give them a second life or market outlet.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded shadow">
+              <h3 className="text-xl font-bold text-blue-900 mb-3">Import & Export</h3>
+              <p className="text-gray-700">No one is better than us at managing supplier search, production, quality controls, import and door-to-door service from Asia or other parts of the world.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
-      <section id="contact" className="bg-gray-100 py-24">
+      <section id="contact" className="bg-white py-16">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-4xl font-bold text-blue-900 mb-8">CONTACT US</h2>
           
@@ -169,7 +232,7 @@ export default function ClientBody() {
           <div>
             <h3 className="font-bold text-lg mb-4">ABOUT VITTONIC</h3>
             <p className="text-sm text-gray-400">
-              Vittonic is a company dedicated to stock trading.
+              Vittonic is a company dedicated to stock trading and offering the necessary services to both buyers and sellers to carry out successful transactions.
             </p>
           </div>
           
@@ -178,22 +241,33 @@ export default function ClientBody() {
             <ul className="text-sm text-gray-400 space-y-2">
               <li><a href="#stocks">Stock Purchase.</a></li>
               <li><a href="#services">Stock Sales.</a></li>
+              <li>Creditor Insolvency.</li>
+              <li>Imports and Exports.</li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-bold text-lg mb-4">LEGAL LINKS</h3>
             <ul className="text-sm text-gray-400 space-y-2">
+              <li><a href="#">Legal Notice.</a></li>
               <li><a href="#">Privacy Policy.</a></li>
+              <li><a href="#">Cookie Policy.</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-bold text-lg mb-4">CONTACT</h3>
+            <p className="text-sm text-gray-400 mb-2">
+              <strong>Address:</strong> Paseo del Progreso s/n, Nave 10 Rosa, Recinto Industrial Catex-Molí, 08640 Olesa de Montserrat, Barcelona, Spain.
+            </p>
             <p className="text-sm text-gray-400">
               <strong>Email:</strong> <a href="mailto:vittonic@proton.me">vittonic@proton.me</a>
             </p>
           </div>
+        </div>
+        
+        <div className="container mx-auto px-4 mt-8 pt-8 border-t border-gray-800 text-center text-sm text-gray-400">
+          <p><strong>VITTONIC</strong> is a registered trademark of <strong>CHITA INVESTMENT GROUP</strong>, along with <strong>CHITA TRADING S.L.</strong> and <strong>ECO-CHITA</strong>.</p>
         </div>
       </footer>
     </main>
