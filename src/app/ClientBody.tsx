@@ -18,8 +18,7 @@ export default function ClientBody() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative text-white py-24" style={{backgroundImage: 'url(https://i.imgur.com/UpCzhnF.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>          <h2 className="text-6xl font-bold mb-8">VITTONIC</h2 relative z-10>
-                <div className="absolute inset-0 bg-blue-900 opacity-70"></div>
+      <section className="relative text-white py-24 bg-cover bg-center" style={{backgroundImage: `url(https://i.imgur.com/UpCzhnF.png)`}}>                <div className="absolute inset-0 bg-blue-900 opacity-70"></div>
           <p className="text-2xl mb-2">Stock trading with a</p>
           <p className="text-4xl font-bold mb-12">TRULY comprehensive service</p>
           
